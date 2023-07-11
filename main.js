@@ -25,9 +25,6 @@ function prueba() {
     let suma = 0;
 
     while (producto.toUpperCase() !== 'ESC') {
-    /*
-        dale, ahora q esta en git esto cada vez que te pase algo haces asi mira:
-    */
         let bebidaEncontrada = bebidas.find((bebida) => bebida.nombre.toLowerCase() === producto.toLocaleLowerCase());
 
         if (bebidaEncontrada) {
